@@ -12,8 +12,8 @@
         "illuminate/events": "^6.0|^7.0",
         "illuminate/filesystem": "^6.0|^7.0",
         "illuminate/view": "^6.0|^7.0",
-        "dazzlesoftware/dazzle-coding-standard": "^1.0",
-        "dazzlesoftware/test": "^1.0",
+        "dazzlesoftware/dazzle-coding-standard": "^1.0|^2.0",
+        "dazzlesoftware/test": "^1.0|^2.0",
         "league/plates": "^3.0",
         "mustache/mustache": "^2.3",
         "phpunit/phpunit": "^9.0",
@@ -47,7 +47,8 @@
     "minimum-stability": "dev",
     "extra": {
         "branch-alias": {
-            "dev-master": "2.x-dev"
+            "dev-master": "1.x-dev",
+            "dev-develop": "2.x-dev"
         }
     }
 }
